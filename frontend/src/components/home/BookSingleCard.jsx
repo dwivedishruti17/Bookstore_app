@@ -25,10 +25,10 @@ const BookSingleCard = ({ book }) => {
         <h2 className='my-1'>{book.author}</h2>
       </div>
       <div className='flex justify-between items-center gap-x-2 mt-4 p-4'>
-        <BiShow
+        {/* <BiShow
           className='text-3xl text-blue-800 hover:text-black cursor-pointer'
           onClick={() => setShowModal(true)}
-        />
+        /> */}
         <Link to={`/books/details/${book._id}`}>
           <BsInfoCircle className='text-2xl text-green-800 hover:text-black' />
         </Link>
